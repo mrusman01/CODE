@@ -1,0 +1,138 @@
+body {
+  background-color: rgba(0, 0, 0, 0.87);
+  color: white;
+  font-size: large;
+  margin: 0px;
+  padding: 0px;
+  font-size: large;
+  /* font-weight: bold; */
+}
+.main-container {
+  font-family: sans-serif;
+  max-width: 1300px;
+  margin: 0px auto;
+}
+.item {
+  width: 300px;
+  height: 200px;
+  border: 2px solid rgba(60, 59, 26);
+  border-radius: 10px;
+  padding: 50px;
+  margin: 10px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  background-color: rgb(39, 36, 36);
+}
+.item1 {
+  background-color: rgb(39, 36, 36);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border: 2px solid rgb(60, 59, 26);
+  border-radius: 10px;
+  padding: 50px;
+  color: white;
+}
+.header {
+  /* margin: 20px; */
+
+  padding: 5px;
+}
+.btn1 {
+  padding: 5px;
+
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.btn {
+  background-color: rgb(39, 36, 36);
+  width: 145px;
+  height: 42px;
+  font-weight: 500;
+  border-radius: 5px;
+  font-size: 18px;
+  color: white;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-right: 50px;
+  display: inline-block;
+}
+.item-box1 {
+  margin-top: 210px;
+}
+.item-box2 {
+  margin-top: 210px;
+}
+.item-box3 {
+  margin-top: 80px;
+}
+#learn-btn {
+  cursor: pointer;
+  border-radius: 5px;
+}
+.lastmain-box {
+  /* border: 2px solid white; */
+  border-radius: 10px;
+  display: flex;
+  position: relative;
+  display: inline-block;
+  padding: 30px;
+  justify-content: space-between;
+}
+#last-btn {
+  cursor: pointer;
+  border-radius: 5px;
+}
+#circle {
+  margin-right: 100px;
+  display: inline-block;
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+
+  border-radius: 100%;
+  border: solid white;
+}
+
+.circle-container {
+  display: flex;
+  flex-direction: column;
+}
+.circle-display {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: auto;
+  align-items: center;
+}
+.text-1 {
+  padding: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  .item1 {
+    width: 77%;
+  }
+}
+/* @media only screen and (max-width: 800px) {
+  .btn1 {
+    width: 60%;
+  } */
+/* } */
+
+@media only screen and (max-width: 800px) {
+  .main-container {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .text-1 {
+    padding: 0px;
+  }
+}

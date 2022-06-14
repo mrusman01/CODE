@@ -1,0 +1,27 @@
+.main-container {
+  background-color: rgb(83, 118, 118);
+  width: 900px;
+  height: 600px;
+  display: grid;
+  grid-gap: 7px;
+}
+.item1 {
+  background-color: rgb(0, 221, 114);
+  grid-area: 1/1/2/2;
+}
+.item2 {
+  background-color: rgb(33, 53, 53);
+  grid-area: 1/1/2/2;
+}
+.item3 {
+  background-color: rgb(163, 159, 18);
+  grid-area: 1/1/2/2;
+}
+.item4 {
+  background-color: rgb(149, 81, 194);
+  grid-area: 1/1/2/2;
+}
+.item5 {
+  background-color: rgb(238, 238, 173);
+  grid-area: 1/1/2/2;
+}
